@@ -7,7 +7,7 @@ ENV HOME /root
 
 # Use baseimage-docker's init system
 #CMD ["/sbin/my_init"]
-CMD ["/usr/bin/bash"]
+CMD ["/bin/bash"]
 
 # Fix a Debianism of the nobody's uid being 65534
 RUN usermod -u 99 nobody
