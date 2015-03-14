@@ -22,5 +22,5 @@ RUN apt-get update -qq
 RUN apt-get upgrade -qy
 RUN apt-get install -qy wget xinetd zip unzip tcl tcl-dev ftp
 
-RUN wget http://glftpd.eu/files/glftpd-LNX-2.05.RC2_1.0.1e-2+deb7u12_x64.tgz
-RUN tar -zxvf glftpd-LNX-2.05.RC2_1.0.1e-2+deb7u12_x64.tgz
+RUN wget http://glftpd.eu/files/glftpd-LNX-2.05.1_1.0.1e-2+deb7u14_x64.tgz
+RUN tar -zxvf glftpd-LNX-2.05.1_1.0.1e-2+deb7u14_x64.tgz
